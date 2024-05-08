@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Lrf
+Bundle-SymbolicName: com.idlogix.lrf
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: IDLOGIX
+Automatic-Module-Name: com.idlogix.lrf
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
+ org.adempiere.plugin.utils;bundle-version="8.2.0"
+Service-Component: CalloutFactoryComponentDef.xml,
+ ProcessFactoryComponentDef.xml
